@@ -1,0 +1,14 @@
+{
+  "name": "controlled-frame-wrapper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:with-chrome": "dotenv -- sh ./start_chrome_iwa.sh",
+    "start": "dotenv -- bash -c 'pnpm serve -p $PORT'"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv-cli": "^7.4.1",
+    "serve": "^14.2.1"
+  }
+}

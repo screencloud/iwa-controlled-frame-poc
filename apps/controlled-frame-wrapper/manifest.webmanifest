@@ -1,0 +1,21 @@
+{
+  "name": "IWA Controlled Frame POC",
+  "short_name": "IWACFTest",
+  "description": "Isolated Web App to test the Controlled Frame API.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "theme_color": "white",
+  "background_color": "white",
+  "isolated_storage": true,
+  "version": "1.0.0",
+  "permissions_policy": {
+    "cross-origin-isolated": ["self"]
+  }
+}

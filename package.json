@@ -1,0 +1,15 @@
+{
+  "name": "iwa-controlled-frame-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:crasher": "pnpm --filter js-crasher dev",
+    "start:wrapper": "pnpm --filter controlled-frame-wrapper start",
+    "start:wrapper:with-chrome": "pnpm --filter controlled-frame-wrapper start:with-chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

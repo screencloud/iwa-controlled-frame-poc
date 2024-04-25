@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Controlled Frame Wrapper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main
+      class="flex min-h-screen flex-col items-center justify-between p-24 bg-black text-white">
+      <div
+        class="z-10 w-full items-center justify-center font-mono text-sm flex">
+        <div class="flex flex-col items-center justify-center">
+          <div class="flex flex-col items-center justify-between">
+            <h1 class="text-4xl font-bold">Controlled Frame Wrapper</h1>
+            <p class="text-gray-500">
+              A simple example of a controlled frame wrapper
+            </p>
+          </div>
+          <div
+            class="mt-4 rounded"
+            id="controlledframe-container"
+            style="border: 1px solid #ffffff; width: 50vw; height: 50vh">
+          </div>
+          <button
+            id="resurrectButton"
+            class="bg-blue-500 font-bold text-white px-4 py-2 mt-4 hidden rounded hover:bg-blue-700">
+            Resurrect
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- Inline script doesn't work with IWA -->
+    <script src="main.js"></script>
+  </body>
+</html>
