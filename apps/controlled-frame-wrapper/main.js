@@ -69,7 +69,10 @@ const initializeControlledFrame = () => {
   controlledFrame = document.createElement('ControlledFrame');
   controlledFrame.setAttribute('id', 'controlled-frame');
   // To test resurrection, use a js-crasher url
-  controlledFrame.setAttribute('src', 'https://google.com');
+  controlledFrame.setAttribute(
+    'src',
+    'https://iwa-controlled-frame-poc-js-crasher.vercel.app'
+  );
   controlledFrame.setAttribute('partition', 'persist:controlledframe');
 
   // Register controlled frame event

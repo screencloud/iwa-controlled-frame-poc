@@ -16,6 +16,7 @@
   "isolated_storage": true,
   "version": "1.0.0",
   "permissions_policy": {
-    "cross-origin-isolated": ["self"]
+    "cross-origin-isolated": ["self"],
+    "controlled-frame": ["*"]
   }
 }
